@@ -8,9 +8,10 @@
 
     <Button
         android:id="@+id/buttonAfrojack"
-        android:layout_width="88dp"
-        android:layout_height="95dp"
+        android:layout_width="110dp"
+        android:layout_height="97dp"
         android:background="@drawable/Afrojack"
+        android:onClick="playAfrojack"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp" />
 
@@ -19,7 +20,8 @@
         android:layout_width="88dp"
         android:layout_height="48dp"
         android:background="@drawable/avicii"
-        tools:layout_editor_absoluteX="126dp"
+        android:onClick="playAvicii"
+        tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <Button
@@ -27,6 +29,7 @@
         android:layout_width="88dp"
         android:layout_height="48dp"
         android:background="@drawable/DavidGuetta"
+        android:onClick="playDavidGuetta"
         tools:layout_editor_absoluteX="267dp"
         tools:layout_editor_absoluteY="16dp" />
 
@@ -35,94 +38,106 @@
         android:layout_width="88dp"
         android:layout_height="48dp"
         android:background="@drawable/deadmau5"
+        android:onClick="playDeadmau5"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="113dp" />
+        tools:layout_editor_absoluteY="108dp" />
 
     <Button
         android:id="@+id/button5DJSnake"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="147dp"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:background="@drawable/DJ Snake"
+        android:onClick="playDJSnake"
+        tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="113dp" />
 
     <Button
         android:id="@+id/button6Kygo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="257dp"
-        tools:layout_editor_absoluteY="111dp" />
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:background="@drawable/KYGO"
+        android:onClick="playKYGO"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="121dp" />
 
     <Button
         android:id="@+id/button7Maroon5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:background="@drawable/Maroon5"
+        android:onClick="playMaroon5"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="230dp" />
+        tools:layout_editor_absoluteY="221dp" />
 
     <Button
         android:id="@+id/button8Marshmello"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="149dp"
-        tools:layout_editor_absoluteY="232dp" />
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:background="@drawable/marshmallow"
+        android:onClick="playMarshmello"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="221dp" />
 
     <Button
         android:id="@+id/button9MartinGarrix"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="257dp"
-        tools:layout_editor_absoluteY="230dp" />
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:background="@drawable/MArtinGarrix"
+        android:onClick="playMartinGarrix"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="221dp" />
 
     <Button
         android:id="@+id/button10MikePosner"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="335dp" />
-
-    <Button
-        android:id="@+id/button11Rihanna"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="328dp" />
-
-    <Button
-        android:id="@+id/button12Skrillex"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="257dp"
+        android:layout_width="131dp"
+        android:layout_height="48dp"
+        android:background="@drawable/Mike-Posner"
+        android:onClick="playMikePosner"
+        tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="326dp" />
 
     <Button
+        android:id="@+id/button11Rihanna"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:background="@drawable/rihanna"
+        android:onClick="playRihanna"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="331dp" />
+
+    <Button
+        android:id="@+id/button12Skrillex"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:background="@drawable/Skrillex"
+        android:onClick="playSkrillex"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <Button
         android:id="@+id/button13SteveAoki"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="433dp" />
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:background="@drawable/Steve_Aoki"
+        android:onClick="playSteveAoki"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="418dp" />
 
     <Button
         android:id="@+id/button14Tiesto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="433dp" />
+        android:layout_width="89dp"
+        android:layout_height="48dp"
+        android:background="@drawable/Tiesto"
+        android:onClick="playTiesto"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="418dp" />
 
     <Button
         android:id="@+id/button15ZEDD"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:background="@drawable/ZEDD"
+        android:onClick="playZEDD"
         tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="429dp" />
+        tools:layout_editor_absoluteY="418dp" />
 </android.support.constraint.ConstraintLayout>
