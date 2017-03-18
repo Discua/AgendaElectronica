@@ -29,82 +29,80 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        s1 = MediaPlayer.create(this, R.raw.Afrojack);
-        s2 = MediaPlayer.create(this, R.raw.Avicii);
-        s3 = MediaPlayer.create(this, R.raw.DavidGuetta);
-        s4 = MediaPlayer.create(this, R.raw.Deadmau5);
-        s5 = MediaPlayer.create(this, R.raw.DJSnake);
-        s6 = MediaPlayer.create(this, R.raw.Kygo);
-        s7 = MediaPlayer.create(this, R.raw.Maroon5);
-        s8 = MediaPlayer.create(this, R.raw.Marshmello);
-        s9 = MediaPlayer.create(this, R.raw.MartinGarrix);
-        s10 = MediaPlayer.create(this, R.raw.MikePosner);
-        s11 = MediaPlayer.create(this, R.raw.Rihanna);
-        s12 = MediaPlayer.create(this, R.raw.Skrillex);
-        s13 = MediaPlayer.create(this, R.raw.SteveAoki);
-        s14 = MediaPlayer.create(this, R.raw.Tiesto);
-        s15 = MediaPlayer.create(this, R.raw.ZEDD);
+        s1 = MediaPlayer.create(this, R.raw.afrojack);
+        s2 = MediaPlayer.create(this, R.raw.avicii);
+        s3 = MediaPlayer.create(this, R.raw.davidguetta);
+        s4 = MediaPlayer.create(this, R.raw.deadmau5);
+        s5 = MediaPlayer.create(this, R.raw.djsnake);
+        s6 = MediaPlayer.create(this, R.raw.kygo);
+        s7 = MediaPlayer.create(this, R.raw.maroon5);
+        s8 = MediaPlayer.create(this, R.raw.marshmello);
+        s9 = MediaPlayer.create(this, R.raw.martingarrix);
+        s10 = MediaPlayer.create(this, R.raw.mikeposner);
+        s11 = MediaPlayer.create(this, R.raw.rihanna);
+        s12 = MediaPlayer.create(this, R.raw.skrillex);
+        s13 = MediaPlayer.create(this, R.raw.steveaoki);
+        s14 = MediaPlayer.create(this, R.raw.tiesto);
+        s15 = MediaPlayer.create(this, R.raw.zedd);
 
     }
 
-    public void playAfrojack(View view) {
+    public void playafrojack(View view) {
         s1.start();
     }
 
-    public void playAvicii(View view) {
+    public void playavicii(View view) {
         s2.start();
     }
 
-    public void playDavidGuetta(View view) {
+    public void playdavidguetta(View view) {
         s3.start();
     }
 
-    public void playDeadmau5(View view) {
+    public void playdeadmau5(View view) {
         s4.start();
     }
 
-    public void playDJSnake(View view) {
+    public void playdjsnake(View view) {
         s5.start();
     }
 
-    public void playKYGO(View view) {
+    public void playkygo(View view) {
         s6.start();
     }
 
-    public void playMaroon5(View view) {
+    public void playmaroon5(View view) {
         s7.start();
     }
 
-    public void playMarshmello(View view) {
+    public void playmarshmello(View view) {
         s8.start();
     }
 
-    public void playMartinGarrix(View view) {
+    public void playmartingarrix(View view) {
         s9.start();
     }
 
-    public void playMikePosner(View view) {
+    public void playmikeposner(View view) {
         s10.start();
     }
 
-    public void playRihanna(View view) {
+    public void playrihanna(View view) {
         s11.start();
     }
 
-    public void playSkrillex(View view) {
+    public void playskrillex(View view) {
         s12.start();
     }
 
-    public void playSteveAoki(View view) {
+    public void playsteveaoki(View view) {
         s13.start();
     }
 
-    public void playTiesto(View view) {
+    public void playtiesto(View view) {
         s14.start();
     }
 
-    public void playZEDD (View view) {
-        s15.start();
-    }
+    public void playzedd (View view) {s15.start();}
 
 }

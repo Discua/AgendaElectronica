@@ -7,138 +7,138 @@
     tools:context="com.example.discua.musicabotones.MainActivity">
 
     <Button
+        android:id="@+id/buttonafrojack"
         style="?android:attr/buttonStyleSmall"
-        android:id="@+id/buttonAfrojack"
         android:layout_width="110dp"
         android:layout_height="97dp"
-        android:background="@drawable/Afrojack"
-        android:onClick="playAfrojack"
+        android:background="@drawable/afrojack"
+        android:onClick="playafrojack"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp" />
 
     <Button
-        android:id="@+id/button2Avicii"
+        android:id="@+id/button2avicii"
         android:layout_width="88dp"
         android:layout_height="48dp"
         android:background="@drawable/avicii"
-        android:onClick="playAvicii"
+        android:onClick="playavicii"
         tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <Button
-        android:id="@+id/button3DavidGuetta"
+        android:id="@+id/button3davidguetta"
         android:layout_width="88dp"
         android:layout_height="48dp"
-        android:background="@drawable/DavidGuetta"
-        android:onClick="playDavidGuetta"
+        android:background="@drawable/davidguetta"
+        android:onClick="playdavidguetta"
         tools:layout_editor_absoluteX="267dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <Button
-        android:id="@+id/button4Deadmau5"
+        android:id="@+id/button4deadmau5"
         android:layout_width="88dp"
         android:layout_height="48dp"
         android:background="@drawable/deadmau5"
-        android:onClick="playDeadmau5"
+        android:onClick="playdeadmau5"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="108dp" />
 
     <Button
-        android:id="@+id/button5DJSnake"
+        android:id="@+id/button5djsnake"
         android:layout_width="88dp"
         android:layout_height="48dp"
-        android:background="@drawable/DJSnake"
-        android:onClick="playDJSnake"
+        android:background="@drawable/djsnake"
+        android:onClick="playdjsnake"
         tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="113dp" />
 
     <Button
-        android:id="@+id/button6Kygo"
+        android:id="@+id/button6kygo"
         android:layout_width="88dp"
         android:layout_height="48dp"
-        android:background="@drawable/KYGO"
-        android:onClick="playKYGO"
+        android:background="@drawable/kygo"
+        android:onClick="playkygo"
         tools:layout_editor_absoluteX="267dp"
         tools:layout_editor_absoluteY="121dp" />
 
     <Button
-        android:id="@+id/button7Maroon5"
+        android:id="@+id/button6maroon5"
         android:layout_width="88dp"
         android:layout_height="48dp"
-        android:background="@drawable/Maroon5"
-        android:onClick="playMaroon5"
+        android:background="@drawable/maroon5"
+        android:onClick="playmaroon5"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="221dp" />
 
     <Button
-        android:id="@+id/button8Marshmello"
+        android:id="@+id/button8marshmello"
         android:layout_width="88dp"
         android:layout_height="48dp"
         android:background="@drawable/marshmallow"
-        android:onClick="playMarshmello"
+        android:onClick="playmarshmello"
         tools:layout_editor_absoluteX="139dp"
         tools:layout_editor_absoluteY="221dp" />
 
     <Button
-        android:id="@+id/button9MartinGarrix"
+        android:id="@+id/button9martingarrix"
         android:layout_width="88dp"
         android:layout_height="48dp"
-        android:background="@drawable/MArtinGarrix"
-        android:onClick="playMartinGarrix"
+        android:background="@drawable/martingarrix"
+        android:onClick="playmartingarrix"
         tools:layout_editor_absoluteX="267dp"
         tools:layout_editor_absoluteY="221dp" />
 
     <Button
-        android:id="@+id/button10MikePosner"
+        android:id="@+id/button10mikeposner"
         android:layout_width="131dp"
         android:layout_height="48dp"
-        android:background="@drawable/MikePosner"
-        android:onClick="playMikePosner"
+        android:background="@drawable/mikeposner"
+        android:onClick="playmikeposner"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="326dp" />
 
     <Button
-        android:id="@+id/button11Rihanna"
+        android:id="@+id/button11rihanna"
         android:layout_width="88dp"
         android:layout_height="48dp"
         android:background="@drawable/rihanna"
-        android:onClick="playRihanna"
+        android:onClick="playrihanna"
         tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="331dp" />
 
     <Button
-        android:id="@+id/button12Skrillex"
+        android:id="@+id/button12skrillex"
         android:layout_width="88dp"
         android:layout_height="48dp"
-        android:background="@drawable/Skrillex"
-        android:onClick="playSkrillex"
+        android:background="@drawable/skrillex"
+        android:onClick="playskrillex"
         tools:layout_editor_absoluteX="269dp"
         tools:layout_editor_absoluteY="324dp" />
 
     <Button
-        android:id="@+id/button13SteveAoki"
+        android:id="@+id/button13steveaoki"
         android:layout_width="88dp"
         android:layout_height="48dp"
-        android:background="@drawable/Steve_Aoki"
-        android:onClick="playSteveAoki"
+        android:background="@drawable/steveaoki"
+        android:onClick="playsteveaoki"
         tools:layout_editor_absoluteX="28dp"
         tools:layout_editor_absoluteY="418dp" />
 
     <Button
-        android:id="@+id/button14Tiesto"
+        android:id="@+id/button14tiesto"
         android:layout_width="89dp"
         android:layout_height="48dp"
-        android:background="@drawable/Tiesto"
-        android:onClick="playTiesto"
+        android:background="@drawable/tiesto"
+        android:onClick="playtiesto"
         tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="418dp" />
 
     <Button
-        android:id="@+id/button15ZEDD"
+        android:id="@+id/button15zedd"
         android:layout_width="88dp"
         android:layout_height="48dp"
-        android:background="@drawable/ZEDD"
-        android:onClick="playZEDD"
+        android:background="@drawable/zedd"
+        android:onClick="playzedd"
         tools:layout_editor_absoluteX="267dp"
         tools:layout_editor_absoluteY="418dp" />
 </android.support.constraint.ConstraintLayout>
