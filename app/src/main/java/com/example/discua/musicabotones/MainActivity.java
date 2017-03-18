@@ -27,5 +27,22 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        s1 = MediaPlayer.create(this,R.raw.Afrojack);
+        s2 = MediaPlayer.create(this,R.raw.Avicii);
+        s3 = MediaPlayer.create(this,R.raw.DavidGuetta);
+        s4 = MediaPlayer.create(this,R.raw.Deadmau5);
+        s5 = MediaPlayer.create(this,R.raw.DJSnake);
+        s6 = MediaPlayer.create(this,R.raw.Kygo);
+        s7 = MediaPlayer.create(this,R.raw.Maroon5);
+        s8 = MediaPlayer.create(this,R.raw.Marshmello);
+        s9 = MediaPlayer.create(this,R.raw.MartinGarrix);
+        s10 = MediaPlayer.create(this,R.raw.MikePosner);
+        s11 = MediaPlayer.create(this,R.raw.Rihanna);
+        s12 = MediaPlayer.create(this,R.raw.Skrillex);
+        s13 = MediaPlayer.create(this,R.raw.SteveAoki);
+        s14 = MediaPlayer.create(this,R.raw.Tiesto);
+        s15 = MediaPlayer.create(this,R.raw.ZEDD);
+
     }
 }
