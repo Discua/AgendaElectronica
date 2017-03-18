@@ -46,7 +46,7 @@
         android:id="@+id/button5DJSnake"
         android:layout_width="88dp"
         android:layout_height="48dp"
-        android:background="@drawable/DJ Snake"
+        android:background="@drawable/DJSnake"
         android:onClick="playDJSnake"
         tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="113dp" />
@@ -91,7 +91,7 @@
         android:id="@+id/button10MikePosner"
         android:layout_width="131dp"
         android:layout_height="48dp"
-        android:background="@drawable/Mike-Posner"
+        android:background="@drawable/MikePosner"
         android:onClick="playMikePosner"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="326dp" />

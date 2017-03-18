@@ -3,6 +3,7 @@ package com.example.discua.musicabotones;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -44,5 +45,8 @@ public class MainActivity extends AppCompatActivity {
         s14 = MediaPlayer.create(this,R.raw.Tiesto);
         s15 = MediaPlayer.create(this,R.raw.ZEDD);
 
+    }
+    public void playAfrojacks (View view){
+        s1.start();
     }
 }
