@@ -1,27 +1,30 @@
 package com.example.discua.musicabotones;
 
+import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
-    MediaPlayer s1;
-    MediaPlayer s2;
-    MediaPlayer s3;
-    MediaPlayer s4;
-    MediaPlayer s5;
-    MediaPlayer s6;
-    MediaPlayer s7;
-    MediaPlayer s8;
-    MediaPlayer s9;
-    MediaPlayer s10;
-    MediaPlayer s11;
-    MediaPlayer s12;
-    MediaPlayer s13;
-    MediaPlayer s14;
-    MediaPlayer s15;
+    Button afrojack;
+    Button avicii;
+    Button davidguetta;
+    Button deadmau5;
+    Button djsnake;
+    Button kygo;
+    Button maroon5;
+    Button marshmello;
+    Button martingarrix;
+    Button mikeposner;
+    Button rihanna;
+    Button skrillex;
+    Button steveaoki;
+    Button tiesto;
+    Button zedd;
+
 
 
     @Override
@@ -29,25 +32,27 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        s1 = MediaPlayer.create(this, R.raw.afrojack);
-        s2 = MediaPlayer.create(this, R.raw.avicii);
-        s3 = MediaPlayer.create(this, R.raw.davidguetta);
-        s4 = MediaPlayer.create(this, R.raw.deadmau5);
-        s5 = MediaPlayer.create(this, R.raw.djsnake);
-        s6 = MediaPlayer.create(this, R.raw.kygo);
-        s7 = MediaPlayer.create(this, R.raw.maroon5);
-        s8 = MediaPlayer.create(this, R.raw.marshmello);
-        s9 = MediaPlayer.create(this, R.raw.martingarrix);
-        s10 = MediaPlayer.create(this, R.raw.mikeposner);
-        s11 = MediaPlayer.create(this, R.raw.rihanna);
-        s12 = MediaPlayer.create(this, R.raw.skrillex);
-        s13 = MediaPlayer.create(this, R.raw.steveaoki);
-        s14 = MediaPlayer.create(this, R.raw.tiesto);
-        s15 = MediaPlayer.create(this, R.raw.zedd);
+        afrojack = (Button) findViewById(R.id.afrojack);
+        avicii = (Button) findViewById(R.id.avicii);
+        davidguetta = (Button) findViewById(R.id.davidguetta);
+        deadmau5 = (Button) findViewById(R.id.deadmau5);
+        djsnake = (Button) findViewById(R.id.djsnake);
+        kygo = (Button) findViewById(R.id.kygo);
+        maroon5 = (Button) findViewById(R.id.maroon5);
+        marshmello = (Button) findViewById(R.id.marshmello);
+        martingarrix = (Button) findViewById(R.id.martingarrix);
+        mikeposner = (Button) findViewById(R.id.mikeposner);
+        rihanna = (Button) findViewById(R.id.rihanna);
+        skrillex = (Button) findViewById(R.id.skrillex);
+        steveaoki = (Button) findViewById(R.id.steveaoki);
+        tiesto = (Button) findViewById(R.id.zedd);
+
+
+        this.setVolumeControlStream(AudioManager.STREAM_MUSIC);
 
     }
 
-    public void playafrojack(View view) {
+    public void playafrojack (View view) {
 
         s1.start();
     }
@@ -109,6 +114,17 @@ public class MainActivity extends AppCompatActivity {
         s14.start();
     }
 
-    public void playzedd (View view) {s15.start();}
+    public void playzedd (View view) {
+        s15.start();
+    }
 
+
+
+
+    @Override
+    public void onClick(View v) {
+
+
+
+    }
 }

@@ -14,7 +14,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/buttonafrojack"
+            android:id="@+id/afrojack"
             style="?android:attr/buttonStyleSmall"
             android:layout_width="110dp"
             android:layout_height="97dp"
@@ -25,7 +25,7 @@
             tools:layout_editor_absoluteY="8dp" />
 
         <Button
-            android:id="@+id/button2avicii"
+            android:id="@+id/avicii"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -35,7 +35,7 @@
             tools:layout_editor_absoluteY="16dp" />
 
         <Button
-            android:id="@+id/button3davidguetta"
+            android:id="@+id/davidguetta"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -45,7 +45,7 @@
             tools:layout_editor_absoluteY="16dp" />
 
         <Button
-            android:id="@+id/button4deadmau5"
+            android:id="@+id/deadmau5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -61,7 +61,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button5djsnake"
+            android:id="@+id/djsnake"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -71,7 +71,7 @@
             tools:layout_editor_absoluteY="113dp" />
 
         <Button
-            android:id="@+id/button6kygo"
+            android:id="@+id/kygo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -81,7 +81,7 @@
             tools:layout_editor_absoluteY="121dp" />
 
         <Button
-            android:id="@+id/button7maroon5"
+            android:id="@+id/maroon5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -91,7 +91,7 @@
             tools:layout_editor_absoluteY="221dp" />
 
         <Button
-            android:id="@+id/button8marshmello"
+            android:id="@+id/marshmello"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -107,7 +107,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button9martingarrix"
+            android:id="@+id/martingarrix"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -117,7 +117,7 @@
             tools:layout_editor_absoluteY="221dp" />
 
         <Button
-            android:id="@+id/button10mikeposner"
+            android:id="@+id/mikeposner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -127,7 +127,7 @@
             tools:layout_editor_absoluteY="326dp" />
 
         <Button
-            android:id="@+id/button11rihanna"
+            android:id="@+id/rihanna"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -137,7 +137,7 @@
             tools:layout_editor_absoluteY="331dp" />
 
         <Button
-            android:id="@+id/button12skrillex"
+            android:id="@+id/skrillex"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -153,7 +153,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button13steveaoki"
+            android:id="@+id/steveaoki"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -163,7 +163,7 @@
             tools:layout_editor_absoluteY="418dp" />
 
         <Button
-            android:id="@+id/button14tiesto"
+            android:id="@+id/tiesto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -173,7 +173,7 @@
             tools:layout_editor_absoluteY="418dp" />
 
         <Button
-            android:id="@+id/button15zedd"
+            android:id="@+id/zedd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
