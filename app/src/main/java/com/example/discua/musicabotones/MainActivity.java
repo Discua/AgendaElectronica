@@ -47,6 +47,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         steveaoki = (Button) findViewById(R.id.steveaoki);
         tiesto = (Button) findViewById(R.id.zedd);
 
+        afrojack.setOnClickListener(this);
+        avicii.setOnClickListener(this);
+        davidguetta.setOnClickListener(this);
+        deadmau5.setOnClickListener(this);
+        djsnake.setOnClickListener(this);
+        kygo.setOnClickListener(this);
+        maroon5.setOnClickListener(this);
+        marshmello.setOnClickListener(this);
+        martingarrix.setOnClickListener(this);
+        mikeposner.setOnClickListener(this);
+        rihanna.setOnClickListener(this);
+        skrillex.setOnClickListener(this);
+        steveaoki.setOnClickListener(this);
+        tiesto.setOnClickListener(this);
+
 
         this.setVolumeControlStream(AudioManager.STREAM_MUSIC);
 
