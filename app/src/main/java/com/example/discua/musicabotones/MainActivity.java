@@ -48,30 +48,36 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void playafrojack(View view) {
+
         s1.start();
     }
 
     public void playavicii(View view) {
+
         s2.start();
     }
 
     public void playdavidguetta(View view) {
+
         s3.start();
     }
 
     public void playdeadmau5(View view) {
+
         s4.start();
     }
 
     public void playdjsnake(View view) {
+
         s5.start();
     }
 
-    public void playkygo(View view) {
+    public void playkygo (View view) {
         s6.start();
     }
 
     public void playmaroon5(View view) {
+
         s7.start();
     }
 
